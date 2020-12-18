@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-image: url("https://static3.srcdn.com/wordpress/wp-content/uploads/2020/10/Among-Us-Desktop-Wallpaper-Backgrounds-Crewmates-Adrift.jpg?q=50&fit=crop&w=740&h=370");
+}
+
+#header {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.8);
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Lilita One";
+}
+
+h2 {
+    margin-left: 0;
+    margin-right: 0;
+    font-family: "Lilita One";
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+#logo-left{
+    float: left;
+}
+
+#logo-right{
+    float: right;;
+}
+
+#simon-says{
+    text-align: center;
+    display: inline-grid;
+}
+
+.simon-ui {
+    width: 400px;
+    height: auto;
+    position: relative;
+    left: 50px;
+}
+
+#button_left {
+    position: absolute;
+    top: 255px;
+    left: 325px;
+}
+
+#button_left div button {
+    background-color: black;
+}
+
+#button_right {
+    position: absolute;
+    top: 251px;
+    left: 728px;
+}
+
+div div button {
+    width: 68px;
+    height: 68px;
+    background-color: grey;
+    margin: 7px 6px;
+}
+
+#start {
+    width: 100px;
+    height: 60px;
+    position: relative;
+    left: 600px;
+    background-color: red;
+}
+
+#hs {
+    background-color: grey;
+    text-align: center;
+}
+

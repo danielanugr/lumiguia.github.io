@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <audio id="lose" src="./lose.mp3"></audio>
+    <audio id="startAudio" src="https://www.myinstants.com/media/sounds/among.mp3"></audio>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <h1>Among Us Simon Says Simulator</h1>
+        <h2>Now you can do your simon says without afraid of getting killed</h2>
+    </div>
+    <img id="logo-left" class="logo" src="./red.png" alt="">
+    <img id="logo-right" class="logo" src="./red.png" alt="">
+
+    <section id="simon-says">
+        <div id="background">
+            <img class="simon-ui" src="./simon_says_left.jpg" alt="Remember what it does">
+            <img class="simon-ui" src="./simon_says_right.jpg" alt="Do what it does here">
+        </div>
+
+        <div id="button_left">
+            <div>
+                <button class="soal" id="left_1" value="1"></button>
+                <button class="soal" id="left_2" value="2"></button>
+                <button class="soal" id="left_3" value="3"></button>
+            </div>
+            <div>
+                <button class="soal" id="left_4" value="4"></button>
+                <button class="soal" id="left_5" value="5"></button>
+                <button class="soal" id="left_6" value="6"></button>
+            </div>
+            <div>
+                <button class="soal" id="left_7" value="7"></button>
+                <button class="soal" id="left_8" value="8"></button>
+                <button class="soal" id="left_9" value="9"></button>
+            </div>
+        </div>
+
+        <div id="button_right">
+            <div>
+                <button id="right_1" value="1"></button>
+                <button id="right_2" value="2"></button>
+                <button id="right_3" value="3"></button>
+            </div>
+            <div>
+                <button id="right_4" value="4"></button>
+                <button id="right_5" value="5"></button>
+                <button id="right_6" value="6"></button>
+            </div>
+            <div>
+                <button id="right_7" value="7"></button>
+                <button id="right_8" value="8"></button>
+                <button id="right_9" value="9"></button>
+            </div>
+        </div>
+
+    </section>
+
+    <div>
+        <button id="start">Start!</button>
+    </div>
+
+    <div id="hs">
+        <h3 id="hi-score">High Score: <span id="score">0</span></h3>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
