@@ -7,8 +7,8 @@ let compTurn;
 let intervalId;
 let strict = true;
 let noise = true;
-let win = true;
-let on = true;
+let win = false;
+let on = false;
 
 const buttonSoal1 = document.querySelector("#left_1");
 const buttonSoal2 = document.querySelector("#left_2");
@@ -33,7 +33,11 @@ const buttonAns9 = document.querySelector("#right_9");
 const turnCounter = document.querySelector("#score");
 const startButton = document.querySelector("#start");
 
+let beepsound = document.getElementById("beep");
+
 startButton.addEventListener('click', (event) => {
+    win = true;
+    on = true;
     if (on || win) {
         let sound = document.getElementById("startAudio");
         sound.play();
@@ -124,39 +128,66 @@ function nine() {
 }
 
 function oneAns() {
+    if (noise) {
+        beepsound.play();
+    }
     noise = true;
     buttonAns1.style.backgroundColor = "lightblue";
 }
 
 function twoAns() {
+    if (noise) {
+        beepsound.play();
+    }
     noise = true;
     buttonAns2.style.backgroundColor = "lightblue";
 }
 function threeAns() {
+    if (noise) {
+        beepsound.play();
+    }
     noise = true;
     buttonAns3.style.backgroundColor = "lightblue";
 }
 function fourAns() {
+    if (noise) {
+        beepsound.play();
+    }
     noise = true;
     buttonAns4.style.backgroundColor = "lightblue";
 }
 function fiveAns() {
+    if (noise) {
+        beepsound.play();
+    }
     noise = true;
     buttonAns5.style.backgroundColor = "lightblue";
 }
 function sixAns() {
+    if (noise) {
+        beepsound.play();
+    }
     noise = true;
     buttonAns6.style.backgroundColor = "lightblue";
 }
 function sevenAns() {
+    if (noise) {
+        beepsound.play();
+    }
     noise = true;
     buttonAns7.style.backgroundColor = "lightblue";
 }
 function eightAns() {
+    if (noise) {
+        beepsound.play();
+    }
     noise = true;
     buttonAns8.style.backgroundColor = "lightblue";
 }
 function nineAns() {
+    if (noise) {
+        beepsound.play();
+    }
     noise = true;
     buttonAns9.style.backgroundColor = "lightblue";
 }
