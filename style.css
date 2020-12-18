@@ -74,6 +74,8 @@ div div button {
     position: relative;
     left: 600px;
     background-color: red;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 #hs {
