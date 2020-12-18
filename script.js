@@ -34,6 +34,7 @@ const turnCounter = document.querySelector("#score");
 const startButton = document.querySelector("#start");
 
 let beepsound = document.getElementById("beep");
+let beepSoal = document.getElementById("beepSoal")
 
 startButton.addEventListener('click', (event) => {
     win = true;
@@ -90,39 +91,48 @@ function gameTurn() {
 }
 
 function one() {
+    beepSoal.play();
     noise = true;
     buttonSoal1.style.backgroundColor = "lightblue";
 }
 
 function two() {
+    beepSoal.play();
     noise = true;
     buttonSoal2.style.backgroundColor = "lightblue";
 }
 function three() {
+    beepSoal.play();
     noise = true;
     buttonSoal3.style.backgroundColor = "lightblue";
 }
 function four() {
+    beepSoal.play();
     noise = true;
     buttonSoal4.style.backgroundColor = "lightblue";
 }
 function five() {
+    beepSoal.play();
     noise = true;
     buttonSoal5.style.backgroundColor = "lightblue";
 }
 function six() {
+    beepSoal.play();
     noise = true;
     buttonSoal6.style.backgroundColor = "lightblue";
 }
 function seven() {
+    beepSoal.play();
     noise = true;
     buttonSoal7.style.backgroundColor = "lightblue";
 }
 function eight() {
+    beepSoal.play();
     noise = true;
     buttonSoal8.style.backgroundColor = "lightblue";
 }
 function nine() {
+    beepSoal.play();
     noise = true;
     buttonSoal9.style.backgroundColor = "lightblue";
 }
